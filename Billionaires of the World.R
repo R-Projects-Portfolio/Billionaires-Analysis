@@ -119,7 +119,6 @@ country_variable <- factor(data_merged$location.citizenship)
 
 t <- count(data_merged, 'location.citizenship')
 
-
 t
 
 names(t)[2] = 'Number_of_Billionaires'
@@ -228,7 +227,6 @@ dim(data_top_20_merged)
 Inherited <- data_top_20_merged %>% filter(wealth.type == "inherited")
 dim(Inherited)
 
-
 self_made <- data_top_20_merged %>% filter(wealth.type != "inherited")
 dim(self_made)
 class(self_made)
@@ -273,8 +271,6 @@ unique(data_top_20_merged$name)
 name_variable <- factor(data_top_20_merged$name)
 
 n <- count(data_top_20_merged, 'name')
-
-
 n
 
 names(n)[1] = 'Name'
