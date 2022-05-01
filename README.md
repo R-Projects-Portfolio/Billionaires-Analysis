@@ -28,6 +28,7 @@ We can see that Consumer, Real Estate, Retail & Restaurant, Money-Management, Me
 
 Let's see the Top 6 Industries.
 
+
 ![Top 6 Industries](https://user-images.githubusercontent.com/97380339/166159821-9d27c298-e948-498d-91b4-e94e5fbed433.png)
 
 
